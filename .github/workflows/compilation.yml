@@ -50,9 +50,9 @@ jobs:
           name: maxcso-macos
           path: maxcso-macos.tar.gz
 
-  build-ubuntu:
-    name: Ubuntu build
-    runs-on: ubuntu-latest
+  build-linux:
+    name: Linux build
+    runs-on: linux-latest
 
     steps:
       - name: Checkout repository
